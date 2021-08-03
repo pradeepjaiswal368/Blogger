@@ -1,0 +1,23 @@
+body div {
+  text-align: center; }
+  body div img {
+    margin-top: 10px; }
+  body div form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: space-around; }
+    body div form input {
+      width: 100%;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    body div form #preview {
+      width: 50%; }
+    body div form input[type=submit] {
+      background-color: #3b48f7; }
+    body div form div {
+      display: flex;
+      justify-content: space-between; }

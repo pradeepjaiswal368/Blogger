@@ -1,0 +1,40 @@
+body{
+
+    div{
+       text-align: center;
+       img{
+           margin-top: 10px;
+       }
+        form{
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          margin: 50px;
+          justify-content: space-around;
+
+          input{
+              width: 100%;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+          }
+
+          #preview{
+            width: 50%;
+        }
+        
+
+          input[type = submit] {
+            background-color: #3b48f7;
+          }
+
+          div{
+              display: flex;
+              justify-content: space-between;
+          }
+
+        }
+    }
+
+}

@@ -1,0 +1,47 @@
+#signin-container{
+   
+    margin-top:  50px;
+
+   h1{
+     text-align: center;
+   }
+
+    form{
+        margin: auto;
+        width:  330px;
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-bottom: 10px;
+            padding: 10px;
+
+            width: 100%;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+
+        }
+
+        input[type = submit]{
+            width: 50%;
+            cursor: pointer;
+        }
+    }
+
+    p{
+        background-color: rgb(240, 33, 33);
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        a{
+           
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+        }
+    }
+
+}

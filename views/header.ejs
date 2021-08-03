@@ -1,0 +1,38 @@
+<h1 id="head">
+    Thoughts
+</h1>
+<header class="header">
+    <h3>
+    <a href="/">  HOME </a>  
+    </h3>
+
+    <ul id="list">
+        <% if(locals.user) { %>
+        
+        
+           <li>
+                    <a href="/users/profile/<%= user.id %>"><%= user.name %></a>
+           </li>
+       
+       
+            <li>
+                <a href="/users/sign-out"> logout </a>
+            </li>
+          
+           
+
+
+        <%} else {%>   
+
+            <li>
+                <a href="/users/sign-in">Sign in</a>
+            </li>
+            <li>
+                <a href="/users/sign-up">Sign up</a>
+            </li>
+
+        <%}%>
+
+    </ul>
+
+</header>

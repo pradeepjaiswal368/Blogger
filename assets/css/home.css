@@ -1,0 +1,96 @@
+body {
+  margin: 0%;
+  background-color: #d8d8d8; }
+  body section > form {
+    margin-left: 50px; }
+  body #home-container {
+    display: flex; }
+    body #home-container #feed-post {
+      width: 80%;
+      padding: 10px; }
+      body #home-container #feed-post #post-form {
+        width: auto;
+        display: flex; }
+        body #home-container #feed-post #post-form form {
+          background-color: whitesmoke;
+          padding: 20px;
+          margin: auto;
+          border-radius: 10px; }
+          body #home-container #feed-post #post-form form textarea {
+            border-radius: 10px;
+            padding: 10px;
+            width: auto; }
+          body #home-container #feed-post #post-form form input[type=submit] {
+            display: block;
+            margin-top: 15px;
+            padding: 10px 15 10px 15px;
+            border: 2px solid black;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer; }
+    body #home-container #users-friend {
+      width: 30%;
+      padding: 10px;
+      border-left: 1px solid lightgray; }
+  body .post-list-container {
+    text-align: center;
+    padding: 10px;
+    text-align: left; }
+    body .post-list-container ul .li {
+      border: 1px solid #afafaf;
+      background-color: white;
+      margin-bottom: 10px;
+      padding: 10px;
+      list-style: none;
+      border-radius: 10px; }
+      body .post-list-container ul .li p {
+        color: #797775;
+        letter-spacing: 1px; }
+        body .post-list-container ul .li p small {
+          font-weight: bold;
+          color: #0c0c0c; }
+    body .post-list-container .post-comments form input[type=text] {
+      padding: 5px;
+      border: none;
+      background-color: whitesmoke; }
+    body .post-list-container .post-comments form input[type=submit] {
+      border: none;
+      background-color: chartreuse;
+      border-radius: 2px;
+      padding: 5px;
+      font-weight: bold;
+      font-stretch: condensed; }
+    body .post-list-container .post-comments .toggle-like-button {
+      text-decoration: none; }
+    body .post-list-container .post-comments .post-comments-list ul {
+      text-decoration: none;
+      list-style: none;
+      text-align: left; }
+      body .post-list-container .post-comments .post-comments-list ul li p {
+        font-weight: bold; }
+        body .post-list-container .post-comments .post-comments-list ul li p small {
+          font-weight: normal;
+          font-weight: bold;
+          color: black; }
+
+#users-friend #friends {
+  background-color: #e4e728; }
+
+#users-friend div {
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #f9fcf8;
+  border-radius: 10px; }
+  #users-friend div h4 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid grey; }
+  #users-friend div p {
+    margin-left: 10px; }
+    #users-friend div p a {
+      text-decoration: none;
+      list-style: none;
+      font-weight: bold;
+      font-size: 19px;
+      color: grey; }

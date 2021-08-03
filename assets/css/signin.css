@@ -1,0 +1,30 @@
+#signin-container {
+  margin-top: 50px; }
+  #signin-container h1 {
+    text-align: center; }
+  #signin-container form {
+    margin: auto;
+    width: 330px;
+    display: flex;
+    flex-direction: column; }
+    #signin-container form input {
+      margin-bottom: 10px;
+      padding: 10px;
+      width: 100%;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    #signin-container form input[type=submit] {
+      width: 50%;
+      cursor: pointer; }
+  #signin-container p {
+    background-color: #f02121;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px; }
+    #signin-container p a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: large; }

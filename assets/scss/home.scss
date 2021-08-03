@@ -1,0 +1,182 @@
+body{
+    margin: 0%;
+   background-color:  #d8d8d8;; 
+
+    section > form{
+      
+         margin-left: 50px;
+
+   }
+    #home-container{
+
+
+       display: flex;
+       // height: 90%;
+       #feed-post{
+          width: 80%;
+          padding: 10px;
+
+          #post-form{
+           
+    
+            width: auto;
+            display: flex;
+            form{
+               background-color: whitesmoke;
+               padding: 20px;
+               margin: auto;
+               border-radius: 10px;
+               textarea{
+                  border-radius: 10px;
+                  padding: 10px;
+                  width: auto;
+               }
+
+               input[type=submit]{
+               display: block;
+               margin-top: 15px;
+               padding: 10px 15 10px 15px;
+               border: 2px solid black;
+                 border-radius:  25px;
+                 font-weight: bold;
+                 cursor: pointer;
+               }
+            }
+
+          }
+
+       }
+ 
+       #users-friend{
+          width: 30%;
+          padding: 10px;
+          border-left: 1px solid lightgray;
+
+       }
+
+    }
+ 
+
+      
+   
+    .post-list-container{
+         
+          text-align: center;
+          padding: 10px;
+          text-align: left;
+   
+   ul{
+
+     
+         .li{ 
+            border: 1px solid rgb(175, 175, 175);
+            background-color: white; 
+            margin-bottom: 10px;
+            padding: 10px;
+            list-style: none;
+            border-radius: 10px;
+            p{
+             
+               color: rgb(121, 119, 117);
+               letter-spacing: 1px;
+               // font-family: 'Roboto Condensed', sans-serif;
+               // font-family: 'Oswald', sans-serif;
+             small{
+                  font-weight: bold;
+                  color: rgb(12, 12, 12);
+               }
+            }
+         }
+
+      }
+   .post-comments{
+       
+      form{
+         
+         
+         input[type=text]{
+            padding: 5px;
+            border: none;
+            background-color: whitesmoke;
+         }
+
+         input[type=submit]{
+            border: none;
+            background-color: chartreuse;
+            border-radius: 2px;
+            padding: 5px;
+            font-weight: bold;
+            font-stretch: condensed;
+         }
+
+         
+        
+
+      }
+
+      .toggle-like-button{
+         text-decoration: none;
+      }
+
+       .post-comments-list{
+        
+          ul{
+             text-decoration: none;
+             list-style: none;
+             text-align: left;
+             
+             li{
+                
+                p{
+                   font-weight: bold;
+                   small{
+                      font-weight: normal;
+                      font-weight: bold;
+                      color: black;
+                   }
+                }
+             }
+ 
+          }
+ 
+       }
+ 
+    }
+ 
+ }
+ 
+}
+ 
+ 
+
+#users-friend{
+
+   #friends{
+      background-color: rgb(228, 231, 40);
+   }
+   
+   div{
+      border: 1px solid black;
+      margin-left: 10px;
+      margin-top: 20px;
+      background-color: hsl(105, 40%, 98%);
+      border-radius: 10px;
+      h4{
+         margin-left: 10px;  
+         font-size: 1.5rem;  
+         border-bottom: 1px solid grey;  
+      }
+      p{
+         margin-left: 10px;  
+       
+         a{
+            text-decoration:none;
+            list-style: none;
+            font-weight: bold;
+            font-size: 19px;
+            color: grey;
+         }
+      }
+   }
+
+}

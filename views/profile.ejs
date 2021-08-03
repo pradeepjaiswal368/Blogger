@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <div>
+        <h3>Profile page</h3>
+
+    <% if(user.id == profile_user.id) { %>
+       
+        <form action="/users/update/<%= profile_user.id %>" method="POST">
+            <label for="name" > Name</label>
+           <input type="text" name="name" placeholder="Your name"  value="<%= profile_user.name %>"required>
+           <label for="email">Email</label>
+           <input type="email" name="email" placeholder="Your email"  value="<%= profile_user.email %>"required>
+           
+           <input type="submit" value="update">
+        
+        </form>   
+        
+    <%} else {%>    
+
+    <h4>Name: <%= profile_user.name %></h4>
+    <h4>Email: <%= profile_user.email %></h4>
+  
+    <form action="/users/friends/<%= profile_user.id %>" id="add-friend" method="POST">
+        <input type="submit" id="button"     value="add">
+    </form>
+    
+
+    <%}%>
+
+    </div>
+    
+    <script src="/js/friends.js"></script>
+</body>
+</html>
